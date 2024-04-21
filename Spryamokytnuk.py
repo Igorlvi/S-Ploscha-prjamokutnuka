@@ -21,6 +21,10 @@ turtle.forward(a*37)
 turtle.left(90)
 turtle.forward(b*37)
 turtle.hideturtle()
+style = ('Courier', 15, 'italic')
+turtle.write(" Turtle накреслила\n Вам ваш прямокутник", font=style, align='right')
+turtle.title('Ваш прямокутник')
+
 #Smatplotlib
 fig, ax = plt.subplots()
 square = patches.Rectangle((0, 0), a, b, edgecolor='grey', facecolor='none')
