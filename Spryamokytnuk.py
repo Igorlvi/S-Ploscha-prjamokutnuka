@@ -8,11 +8,11 @@ import matplotlib.patches as patches
 from tkinter import *
 import tkinter as tk
 
-print("Розрахуйте S площу прямокутника")
+print("Розрахуйте S площу прямокутника та P периметр")
 print("Введіть розміри сторін прямокутника см :")
 a = float(input("a довжина ? = "))
 b = float(input("b ширина ? = "))
-print ("S=a*b")
+print("Периметр P = %.2f" % ((a+b)*2))
 print("Площа = %.2f" % (a * b))
 print ("Поки Ви звіряєте свій розв'язок, дана програма побудує Вам Ваш прямокутник ")
 print("У графічному сервісі\n1-Turtle\n2-Matplotlib\n3-Tkinter")
